@@ -13,7 +13,7 @@ public class HomePage {
 
     private By element = By.cssSelector("");
 
-    public void method(){
-
+    public void checkHomePage() {
+        elementHelper.checkUrl("https://www.douglas.de/de");
     }
 }

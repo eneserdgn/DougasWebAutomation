@@ -11,9 +11,14 @@ public class General {
         elementHelper = new ElementHelper(driver);
     }
 
-    private By element = By.cssSelector("");
+    private By btn_AcceptOnCookie = By.cssSelector(".button.button__primary.uc-list-button__accept-all");
+    private By list_tabsOnNavigationBar = By.cssSelector(".link.link--nav-heading.navigation-main-entry__link>font>font");
 
-    public void method(){
+    public void clickTabOnNavigationBar(String tab) {
+        elementHelper.clickElementWithText(list_tabsOnNavigationBar, tab);
+    }
 
+    public void clickAcceptOnCookies() {
+        elementHelper.click(btn_AcceptOnCookie);
     }
 }
