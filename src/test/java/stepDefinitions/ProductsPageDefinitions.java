@@ -1,9 +1,8 @@
 package stepDefinitions;
 
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 
-public class ProductsPage {
+public class ProductsPageDefinitions {
 
     @When("select on {string} Marke on Products Page")
     public void selectOnMarkeOnProductsPage(String arg0) {

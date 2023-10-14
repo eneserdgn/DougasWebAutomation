@@ -3,11 +3,10 @@ package stepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 
-public class General {
+public class GeneralDefinitions {
 
     @Given("handle the cookie consent")
     public void handleTheCookieConsent() {
-
     }
 
     @When("click on {string} tab")
