@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b34f845e-8053-4ce2-8a5f-6592651f87c9" name="Changes" comment="Created Step Definitions files. General.java, HomePage.java, ProductsPage.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/General.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" afterDir="false" />
+    <list default="true" id="b34f845e-8053-4ce2-8a5f-6592651f87c9" name="Changes" comment="Change Step Definitions class names. GeneralDefinitions.java, HomePageDefinitions.java, ProductsPageDefinitions.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/General.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneralDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ProductsPageDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/General.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/General.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneralDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneralDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/ProductsPageDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ProductsPageDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Douglas.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Douglas.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +79,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.testRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.testRunner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -107,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697281391533</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created Pages classes. General.java, HomePage.java, ProductsPage.java">
+      <created>1697281727900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697281727900</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Change Step Definitions class names. GeneralDefinitions.java, HomePageDefinitions.java, ProductsPageDefinitions.java">
+      <created>1697281790500</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697281790500</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +154,8 @@
     <MESSAGE value="Base Architecture" />
     <MESSAGE value="Added Scenario Douglas.feature file" />
     <MESSAGE value="Created Step Definitions files. General.java, HomePage.java, ProductsPage.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Step Definitions files. General.java, HomePage.java, ProductsPage.java" />
+    <MESSAGE value="Created Pages classes. General.java, HomePage.java, ProductsPage.java" />
+    <MESSAGE value="Change Step Definitions class names. GeneralDefinitions.java, HomePageDefinitions.java, ProductsPageDefinitions.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Step Definitions class names. GeneralDefinitions.java, HomePageDefinitions.java, ProductsPageDefinitions.java" />
   </component>
 </project>

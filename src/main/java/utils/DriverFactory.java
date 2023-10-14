@@ -15,13 +15,12 @@ import java.time.Duration;
 public class DriverFactory {
     private static ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
 
-
     private DriverFactory() {
 
     }
 
     public static void initializeDriver(String browser) {
-        WebDriver driver = null;
+        WebDriver driver;
         if (driverThreadLocal.get() == null) {
             switch (browser) {
                 case "chrome":
